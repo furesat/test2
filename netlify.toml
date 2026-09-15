@@ -2,6 +2,8 @@
 [build]
   command = "node generate_static_pages.js"
   publish = "."
+  # Pause automatic Netlify builds. Remove this line to re-enable them.
+  ignore = "exit 0"
 
 # ---------------------------------------------
 # 1)  Statik JSON / logo / CSS vb. dosyalar
